@@ -48,4 +48,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-*This portfolio was created with passion and dedication by [Your Name].*
+*This portfolio was created with passion and dedication by T.*
