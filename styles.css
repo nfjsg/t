@@ -1,0 +1,88 @@
+/* Basic styling */
+body {
+    font-family: Georgia, serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #533fc5;
+    color: #b01f1f;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #1f994c;
+    text-decoration: none;
+}
+
+/* Work section */
+#work {
+    background-color: #c0ce29;
+    padding: 20px;
+    text-align: center;
+}
+
+.work-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.work-item {
+    flex: 1;
+    padding: 10px;
+    max-width: 300px;
+    margin: 10px;
+}
+
+.work-item img {
+    max-width: 100%;
+    border: 2px solid #512ed0;
+}
+
+.work-item.larger img {
+    width: 100%;
+    border: 2px solid #bf3485;
+}
+
+/* Contact section */
+#contact {
+    background-color: #c01515;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .work-item {
+        max-width: 100%;
+    }
+}
+
+/* Inside your styles.css */
+
+/* Default styles for the avatar */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    img {
+        max-width: 80%; /* Adjust as needed */
+    }
+}
